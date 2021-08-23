@@ -1,0 +1,462 @@
+/*
+Theme Name: ocp
+Theme URI: 
+Author: Daniel Pettifer & Alexandru Pandele
+Author URI: 
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+/* please copy these styles before updating style.css */
+
+.link-block.resource-link {
+    padding-top: 30px;
+}
+
+.team-member > .gfield_label {
+    font-family: Stratum1, sans-serif;
+    font-size: 28px !important;
+    color: #000;
+    border-bottom: 1px solid #d6e100;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.app-step {
+    display: inline-block;
+    margin-bottom: 10px;
+    font-family: Stratum1, sans-serif;
+    padding: 10px 20px;
+}
+
+a.app-step.w--current {
+    background: #d6e100;
+    padding: 10px 20px;
+}
+
+a.app-step:hover {
+    background: #d6e100;
+}
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 18px;
+    width: auto;
+    margin: 0 16px 0 0;
+    border: 1px solid #d6e100;
+    background: #d6e100;
+    color: #000;
+    font-family: Stratum1, sans-serif;
+}
+
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-size: inherit;
+    font-family: inherit;
+    padding: 15px;
+    letter-spacing: normal;
+    background: #efefef;
+    border: 0px;
+}
+
+.gform_wrapper textarea {
+    padding: 15px;
+    background: #efefef;
+    border: 0px;
+}
+
+.gform_wrapper ul.gform_fields li.gfield {
+    padding-right: 16px;
+    margin-bottom: 75px;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-family: Stratum1, sans-serif;
+}
+
+body .gform_wrapper div.gform_body ul.gform_fields li.gfield.gfield_html {
+    line-height: 30px;
+}
+
+.intro-li {
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.page-the-application-form input[type=submit],
+.page-the-application-form input[type=button] {
+    background: #fb6045;
+    color: white;
+    vertical-align: middle !important;
+    height: auto !important;
+    font-size: 15px;
+    cursor: pointer !important;
+    box-shadow: none;
+    text-shadow: none;
+    font-family: inherit;
+    outline: 0 !important;
+    margin: 0;
+    opacity: 1;
+    -webkit-appearance: none;
+    display: inline-block !important;
+    width: auto;
+    min-width: 250px;
+}
+
+.page-the-application-form {
+    color: black;
+}
+
+.mandatory-star {
+    color: red;
+}
+
+.main--hero.v2.v4 {
+    background-image: linear-gradient(180deg, rgba(35, 178, 167, .9), rgba(35, 178, 167, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+}
+
+.pull-section {
+    background-image: -webkit-linear-gradient(270deg, rgba(108, 117, 225, .9), rgba(108, 117, 225, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+    background-image: linear-gradient(180deg, rgba(108, 117, 225, .9), rgba(108, 117, 225, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+}
+
+.section.section-light-grey.section-green {
+    background-image: -webkit-linear-gradient(270deg, rgba(251, 96, 69, .9), rgba(251, 96, 69, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+    background-image: linear-gradient(180deg, rgba(251, 96, 69, .9), rgba(251, 96, 69, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+}
+
+.intro-block {
+    background-image: -webkit-linear-gradient(270deg, rgba(108, 117, 225, .9), rgba(108, 117, 225, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+    background-image: linear-gradient(180deg, rgba(108, 117, 225, .9), rgba(108, 117, 225, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+}
+
+.section.section-light-grey.section-bg-img {
+    background-image: -webkit-linear-gradient(270deg, rgba(251, 96, 69, .9), rgba(251, 96, 69, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+    background-image: linear-gradient(180deg, rgba(251, 96, 69, .9), rgba(251, 96, 69, .9)), url('http://challenge.open-contracting.org/wp-content/uploads/2017/04/Challenge-roadtoinnovation.jpg');
+}
+
+.text-block-27 {
+    transition: all 0.2s;
+}
+
+.text-block-27:hover {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+@media (max-width: 779px) {
+    .text-block-15 {
+        position: static;
+        margin-bottom: 100px;
+    }
+
+    .text-block-28 p {
+        font-size: 16px !important;
+    }
+}
+
+.text-block-15 {
+    position: static;
+    margin-top: 90px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.text-block-14.title-block {
+    position: relative;
+    left: 6px;
+    top: 40px;
+}
+
+.text-block-14.title-block.space.dark {
+    top: -65px
+}
+
+.text-block-14.title-block {
+    position: relative;
+    left: 6px;
+    top: 15px;
+}
+
+.text-block-15 {
+    position: static;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 40px !important;
+}
+
+.text-block-14.title-block {
+    position: relative;
+    left: 6px;
+    top: 16px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.text-block-21.page-sub-text.sub-sub {
+    margin-bottom: 1px;
+}
+
+.c-study {
+    position: static;
+    margin-top: 110px;
+}
+
+.m-nav {
+    font-family: Stratum1, sans-serif;
+}
+
+.w-nav-link.w--current {
+    color: #d6e100;
+}
+
+.optional-star {
+    color: orange;
+}
+
+.language-selector {
+    width: 250px;
+    height: 50px;
+    margin-top: 8px;
+    margin-right: 3px;
+    float: right;
+    background-color: #323238;
+}
+
+.on-scroll-brand {
+    top: 2px;
+}
+
+.m-nav {
+    font-family: Stratum1, sans serif;
+}
+
+@media (max-width: 991px) {
+    .m-nav-brand {
+        margin-top: 9px;
+        border-bottom-style: none;
+    }
+
+    .mobile-nav {
+        height: 59px;
+    }
+}
+
+.pull-section {
+    position: relative;
+    padding-top: 330px !important;
+    padding-bottom: 300px !important;
+}
+
+.container.title-container {
+    height: auto;
+    margin-top: -49px;
+    margin-bottom: 200px;
+    padding-top: 130px;
+}
+
+.text-block-21.page-sub-text.sub-sub {
+    margin-bottom: 20px;
+}
+
+.heading-8 {
+    margin-bottom: 60px;
+}
+
+.tab-pane-2 {
+    margin-top: 75px;
+    max-width: 600px;
+}
+
+.total {
+    padding: 8px 0px;
+    background-color: transparent;
+    color: #000;
+}
+
+.text-block-31 {
+    margin-bottom: 10px;
+    font-family: Stratum1, sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 50px;
+}
+
+.red-score {
+    color: red;
+}
+
+.green-score {
+    color: black;
+    background: #d6e100;
+    max-width: 70px;
+}
+
+.answer {
+    max-width: 550px;
+    padding: 25px;
+    background: #efefef;
+    line-height: 30px;
+}
+
+.nav-menu {
+    width: 900px;
+}
+
+.heading-11 {
+    max-width: 550px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #d6e100;
+    font-family: Stratum1, sans-serif;
+    margin-top: 125px;
+    font-size: 58px;
+    line-height: 58px;
+}
+
+.select-field {
+    max-width: 60px;
+    height: 40px;
+}
+
+.score-link {
+    margin-bottom: 8px;
+}
+
+.score {
+    font-weight: 700;
+    margin-bottom: -6px;
+}
+
+.block-title {
+    min-height: 110px;
+    max-width: 200px;
+}
+
+.block-date {
+    top: -50px;
+}
+
+.text-block-14.title-block.top {
+    top: 0px;
+    max-width: 690px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+    color: #fff;
+    font-size: 68px;
+    line-height: 84px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.cta-block {
+    margin-top: 50px;
+    padding: 150px 0;
+    position: relative;
+}
+
+.cta-p {
+    max-width: 900px;
+}
+
+.title {
+    font-family: Stratum1, sans-serif;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.container.hero-container {
+    padding-left: 10px;
+}
+
+#language-selector {
+    width: 100%;
+    height: 50px;
+    margin: 1px -15px 5px;
+    border-radius: 0px !important;
+    -webkit-appearance: no;
+    background: #202025;
+    border: 0px;
+    color: #fff;
+}
+
+.small-text-block {
+    line-height: 100px;
+}
+
+.list-item-2 {
+    line-height: 24px;
+}
+
+.people-card-detail {
+    height: 220px;
+}
+
+.people-card-detail {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Stratum1, sans-serif;
+    color: hsla(0, 0%, 100%, .71);
+    font-size: 16px;
+    min-height: 250px;
+}
+
+.people__card_twitter {
+    color: #fff;
+    font-family: Stratum1;
+    padding: 0 0 20px 20px;
+}
+
+.people-card-name {
+    padding: 20px;
+    font-family: Stratum1, sans-serif;
+    color: #fff;
+    font-weight: 700;
+}
+
+.menu-all-applications {
+    border-color: #fff;
+    background-color: #fff;
+    color: #292930;
+}
+
+.menu-all-applications .ocp-nav {
+    color: inherit;
+}
+.menu-all-applications .ocp-nav:hover {
+    color: white;
+}
+
+.text-block-21.bold {
+    position: relative;
+    z-index: 4;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #6c75e1;
+    font-weight: 700;
+}
+
+.div-block-18 {
+width:auto;
+max-width:250px;
+}
+
+.small-text-block {
+font-size:100px;
+}
+
+.nav-menu {
+width: auto;
+}
+
+.score-form {
+    top: 10px;
+    right:10px;
+    z-index: 9999999;
+}
