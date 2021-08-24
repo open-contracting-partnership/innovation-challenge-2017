@@ -27,3 +27,9 @@ Some changes were made to WordPress:
   - `add_action( 'wp_head', 'wp_oembed_add_discovery_links' );`
 
 The `debug.log` file was then checked for `ERROR` messages.
+
+A few manual changes were made:
+
+- `http://` to `https://`
+- Add missing images and assets
+- Fix links to images and assets
